@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface com_fkViewController : UIViewController
+@interface com_fkViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+
+@property (nonatomic, strong) IBOutlet UITableView *tableView;
 
 @end

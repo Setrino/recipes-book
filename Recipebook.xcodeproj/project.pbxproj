@@ -19,6 +19,8 @@
 		839E8DC51781CC9E00EE6415 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839E8DC31781CC9E00EE6415 /* MainStoryboard_iPhone.storyboard */; };
 		839E8DC81781CC9E00EE6415 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839E8DC61781CC9E00EE6415 /* MainStoryboard_iPad.storyboard */; };
 		839E8DCB1781CC9E00EE6415 /* com_fkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 839E8DCA1781CC9E00EE6415 /* com_fkViewController.m */; };
+		839E8DD21781EA5C00EE6415 /* creme_brelee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 839E8DD11781EA5C00EE6415 /* creme_brelee.jpg */; };
+		839E8DD61781EDB500EE6415 /* RecipeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 839E8DD41781EDB500EE6415 /* RecipeDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,9 @@
 		839E8DC71781CC9E00EE6415 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		839E8DC91781CC9E00EE6415 /* com_fkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = com_fkViewController.h; sourceTree = "<group>"; };
 		839E8DCA1781CC9E00EE6415 /* com_fkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = com_fkViewController.m; sourceTree = "<group>"; };
+		839E8DD11781EA5C00EE6415 /* creme_brelee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = creme_brelee.jpg; path = ../../../Downloads/creme_brelee.jpg; sourceTree = "<group>"; };
+		839E8DD31781EDB500EE6415 /* RecipeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeDetailViewController.h; sourceTree = "<group>"; };
+		839E8DD41781EDB500EE6415 /* RecipeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +96,8 @@
 				839E8DC61781CC9E00EE6415 /* MainStoryboard_iPad.storyboard */,
 				839E8DC91781CC9E00EE6415 /* com_fkViewController.h */,
 				839E8DCA1781CC9E00EE6415 /* com_fkViewController.m */,
+				839E8DD31781EDB500EE6415 /* RecipeDetailViewController.h */,
+				839E8DD41781EDB500EE6415 /* RecipeDetailViewController.m */,
 				839E8DB21781CC9E00EE6415 /* Supporting Files */,
 			);
 			path = Recipebook;
@@ -99,6 +106,7 @@
 		839E8DB21781CC9E00EE6415 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				839E8DD11781EA5C00EE6415 /* creme_brelee.jpg */,
 				839E8DB31781CC9E00EE6415 /* Recipebook-Info.plist */,
 				839E8DB41781CC9E00EE6415 /* InfoPlist.strings */,
 				839E8DB71781CC9E00EE6415 /* main.m */,
@@ -168,6 +176,7 @@
 				839E8DC21781CC9E00EE6415 /* Default-568h@2x.png in Resources */,
 				839E8DC51781CC9E00EE6415 /* MainStoryboard_iPhone.storyboard in Resources */,
 				839E8DC81781CC9E00EE6415 /* MainStoryboard_iPad.storyboard in Resources */,
+				839E8DD21781EA5C00EE6415 /* creme_brelee.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +190,7 @@
 				839E8DB81781CC9E00EE6415 /* main.m in Sources */,
 				839E8DBC1781CC9E00EE6415 /* com_fkAppDelegate.m in Sources */,
 				839E8DCB1781CC9E00EE6415 /* com_fkViewController.m in Sources */,
+				839E8DD61781EDB500EE6415 /* RecipeDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
